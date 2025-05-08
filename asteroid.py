@@ -9,3 +9,5 @@ class Asteroid(CircleShape):
     def draw(self, surface):
         center = (int(self.position.x), int(self.position.y))
         pygame.draw.circle(surface, "white", center, int(self.radius), 2)
+
+    
